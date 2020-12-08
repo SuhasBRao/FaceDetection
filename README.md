@@ -1,0 +1,1 @@
+This repository contains Face detection Project using Opencv API for python.

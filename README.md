@@ -19,14 +19,15 @@ Github Repository contains the following structure.
 - ***haarcascade_frontalface_default.xml*** - This is the .xml file which is basically a pre-trained model which detects faces in an image.
 You can download much more pre-trained model from [here](https://github.com/opencv/opencv/tree/master/data/haarcascades).
 
-**To download follow below steps**.
-
-    - Click on the above link, it will take you to the github page.
-    - Click on the haarcascade you want to try.
-    - Then click on **raw**.
-    - **Right** click on your mouse.
-    - Click on **save as**.
-    - save it in your projects working directory.
+<b>To download follow below steps</b>.
+<p align = 'left'>
+- Click on the above link, it will take you to the github page.<br>
+- Click on the <b>haarcascade</b> you want to try.<br>
+- Then click on <b>raw</b>.<br>
+- Right click on your mouse.<br>
+- Click on <b>save as</b>.<br>
+- save it in your projects working directory.
+</p>
 
 - ***Readme.md*** - This contains details about the project repo.
 - ***images*** - This is a directory that contains images of sample output.

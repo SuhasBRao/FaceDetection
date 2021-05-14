@@ -20,6 +20,7 @@ Github Repository contains the following structure.
 You can download much more pre-trained model from [here](https://github.com/opencv/opencv/tree/master/data/haarcascades).
 
 **To download follow below steps**.
+
     - Click on the above link, it will take you to the github page.
     - Click on the haarcascade you want to try.
     - Then click on **raw**.

@@ -1,10 +1,10 @@
 # Importing the necessary module which is Opencv
 import cv2 as cv
 # Creating a cascade classifier object by passing the required path containg the haar cascades .xml files
-face_cascade = cv.CascadeClassifier('/home/suhas/anaconda3/envs/NB_243/share/opencv4/haarcascades/haarcascade_frontalface_alt2.xml')
+face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Checks whether the path and cascade classifier was loaded correctly
-test = face_cascade.load('/home/suhas/anaconda3/envs/NB_243/share/opencv4/haarcascades/haarcascade_frontalface_alt2.xml')
+test = face_cascade.load('haarcascade_frontalface_default.xml')
 
 print(test)
 

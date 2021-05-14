@@ -32,13 +32,15 @@ You can download much more pre-trained model from [here](https://github.com/open
 - click on ***Download zip***.
 You can also clone the repository to your machine, to clone the repository execute the below command on your terminal.
 **Note** : *Before executing the below command navigate to the directory where you want to clone the repo. You can use cd command to change directory on your machine.*
-- ***git clone https://github.com/SuhasBRao/FaceDetection*** 
+<p align = 'center'><b>git clone https://github.com/SuhasBRao/FaceDetection</b></p>.
 - After cloning the repository, to run the script navigate to the path where you have cloned and execute the command on your terminal.
-- ***python faceDetection.py***.
+<p align = 'center'><b>python faceDetection.py</b></p>.
 
 #### ***NOTE***: Make sure you have installed OpenCv on your machine.
 
 ## Sample Output:
 ---
+
 Here's a sample output after running faceDetection.py
+
 ![Face detection](/images/Face_detection.png)

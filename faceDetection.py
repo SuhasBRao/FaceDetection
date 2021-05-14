@@ -14,7 +14,7 @@ if not face_cascade.empty():	# if the casecade object is not empty then continue
 	while True:
 		ret,frame = img.read()	# retrieves frames one by one from the webcam
 		# ret is a flag which indicates whether the frame was retreived correctly
-		
+		frame = cv.flip(frame, 1)
 		gray = cv.cvtColor(frame,cv.COLOR_BGR2GRAY)		# converts the rgb/bgr frame to gray for processing purposes 
 		
 		blured = cv.GaussianBlur(gray,(5,5),cv.BORDER_DEFAULT)	# blurs the gray image to improve detection
@@ -23,7 +23,8 @@ if not face_cascade.empty():	# if the casecade object is not empty then continue
 
 		for (x,y,w,h) in faces:
 			cv.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)		# Draws retangle on the detected faces
-		cv.imshow('Myoutput',frame)			
+		
+		cv.imshow('Face Detection',frame)			
 
 		k = cv.waitKey(20) & 0xff
 		if k==27:

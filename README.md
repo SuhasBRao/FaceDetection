@@ -1,3 +1,28 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style>
+
+<a href="https://suhasbrao.github.io/" >
+  <button class="btn"><i class="material-icons">home</i></button></a>
+<a href="https://suhasbrao.github.io/Text-To-Speech/" >
+  <button class="btn"><i class="material-icons">arrow_back_ios</i></button></10
+<a href="https://suhasbrao.github.io/Snake-game/" >
+  <button class="btn"><i class="material-icons">arrow_forward_ios</i></button></a>
+
+---
+
 # Face Detection using OpenCV Python
 ---
 Face detection is the first and foremost step for [face recognition](https://www.kaspersky.com/resource-center/definitions/what-is-facial-recognition). It is used to detect faces in images. Face detection is a part of object detection and can be used in many areas such as security, bio-metrics, law-enforcement, entertainment, personal safety etc.

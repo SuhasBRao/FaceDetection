@@ -23,7 +23,7 @@
 
 ---
 
-# Face Detection using OpenCV Python
+<samp>Face Detection using OpenCV Python</samp>
 ---
 Face detection is the first and foremost step for [face recognition](https://www.kaspersky.com/resource-center/definitions/what-is-facial-recognition). It is used to detect faces in images. Face detection is a part of object detection and can be used in many areas such as security, bio-metrics, law-enforcement, entertainment, personal safety etc.
 

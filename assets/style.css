@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+.hr1{
+  border:0;
+  height: 3px;
+  background: #095484;
+  background-image: linear-gradient(to right,#ccc,#095484,#ccc);
+}
 .btn {
   background-color: DodgerBlue;
   border: none;

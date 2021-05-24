@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<style>
+<link rel="stylesheet" href="/assets/style.css">
+<!--<style>
 .btn {
   background-color: DodgerBlue;
   border: none;
@@ -13,14 +14,15 @@
   background-color: RoyalBlue;
 }
 </style>
-
+-->
+<!--
 <a href="https://suhasbrao.github.io/" >
   <button class="btn"><i class="material-icons">home</i></button></a>
 <a href="https://suhasbrao.github.io/Text-To-Speech/" >
   <button class="btn"><i class="material-icons">arrow_back_ios</i></button></a>
 <a href="https://suhasbrao.github.io/Snake-game/" >
   <button class="btn"><i class="material-icons">arrow_forward_ios</i></button></a>
-
+-->
 ---
 
 <samp>Face Detection using OpenCV Python</samp>
@@ -33,7 +35,7 @@ This repository contains code to implement face detection using OpenCV Python.
 
 ## Description:
 ---
-This project uses [OpenCV](https://docs.opencv.org/master/d6/d00/tutorial_py_root.html) Haar cascades for face detection. Haar cascade classifier is a Machine learning object detection program that identifies objects in an image and video. Even though it is has been over a decade since Haar cascade classifiers have been introduced, they are still widely used in object detection. 
+This project uses [OpenCV](https://docs.opencv.org/master/d6/d00/tutorial_py_root.html) Haar cascades for face detection. Haar cascade classifier is a Machine learning object detection program that identifies objects in an image and video. Even though it is has been over a decade since Haar cascade classifiers have been introduced, they are still widely used in object detection.
 
 Today there are many other object detection algorithms but none of them can beat Haar cascade at one thing, its the speed of processing images. More detailed information about Haar cascade classifiers can be found [here](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf).
 
@@ -78,4 +80,4 @@ You can also clone the repository to your machine, to clone the repository execu
 
 Here's a sample output after running faceDetection.py
 
-![Face detection](/images/Face_detection.png)
+![Face detection](/assets/images/Face_detection.png)
